@@ -40,7 +40,7 @@
     switch(command) {
 
     	case  'join' :  words.shift();
-    	                var room = words.join( '  ' );
+    	                var room = words.join( ' ' );
     	                this.changeRoom(room);
     	                break;
 
